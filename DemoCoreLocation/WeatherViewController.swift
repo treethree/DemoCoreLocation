@@ -58,7 +58,7 @@ class WeatherViewController: UIViewController ,CLLocationManagerDelegate{
             //getCityName(loc: loc)
             
             locationManager.stopUpdatingLocation()
-            callWeatherAPI(lat: lat, lot: lot)
+            //callWeatherAPI(lat: lat, lot: lot)
             //print(lat)
             
             //print(curWeather?.humidity)

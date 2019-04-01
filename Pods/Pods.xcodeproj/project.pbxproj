@@ -19,13 +19,56 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		587853D9C246F44D3D598148B427AE68 /* Pods-DemoCoreLocation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF975F7D671150D16470E842AC32D76 /* Pods-DemoCoreLocation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F5A9EFC02A9989E905834A04E15580E /* Pods-DemoCoreLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 854E71B94C79E6A1AE83BA135D87BC75 /* Pods-DemoCoreLocation-dummy.m */; };
-		CD4C70D5112328111D7E4A89D77D7EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		0A6D03052488CDCFA658634F8EA3C892 /* UIViewController+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F93074A0197C4AFC476425B49CC056 /* UIViewController+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		166D499EB09478AC37368312E5E5B204 /* UITextView+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9600ED1A9BE0F503EB65CAA489597BCC /* UITextView+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E6CB635D3488DA76C4B6399AF207D3E /* UITextField+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5F0323450FDE0FC6F9E6B0077E6C9B /* UITextField+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F2AC6F164C5C6D505F52698BE0A3EFD /* UIButton+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = D59AFD2950550D7103FCF3957EDA0545 /* UIButton+Localization.m */; };
+		20C34F186224685DF485B12F39BAB44E /* UIBarButtonItem+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = AC931690C18AC6C1480D3508D100533D /* UIBarButtonItem+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371270A887D9CE0816CBAF98D7CEC63F /* LKLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A55C54A36A8D8171AA7E413E6770F9 /* LKLanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452250414F1C019E2C95BEB06250C237 /* NSBundle+Language.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC6642997F7038019DA77FF7F7BCBC8 /* NSBundle+Language.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58E3C163BE9941CCA5F92C2D57E4DEC3 /* UISegmentedControl+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E3C121E09221273B74942759B5277B6 /* UISegmentedControl+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AEAE9821B1E0B34BECADCA0F32B6666 /* Loki-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 898667964A7E3B6E2F183FE742A6D194 /* Loki-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D94788805F1285793176B958B3BCACF /* LKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F0DBB316688A244E2136BB39549F8F61 /* LKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60CADDD8F5F6F180BA4C24D8384CC0EA /* UILabel+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB35265BAABA60A9D83088BB34311BE /* UILabel+Localization.m */; };
+		65DE6D2D560D8A6E57F4C973134B9404 /* UISegmentedControl+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656FAC8231CCAAED7DCD281EC558A44 /* UISegmentedControl+Localization.m */; };
+		6E12F72FFE5D4776BB1D2C70B2396F02 /* LKLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = D93AAFA927BB5B9B077CD3EFD4D318C0 /* LKLanguage.m */; };
+		80339E248F4FDB9BBA1966340C07498C /* Loki-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC9E0280C2E4CB3BE9F7BE465B1BFB8 /* Loki-dummy.m */; };
+		8202AF0891C60E392E53F37D605377A6 /* Loki.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1628662F3957E6F23A05A3DF5CBB6AFF /* Loki.bundle */; };
+		8C46E9AC901C75C44DEC591DB737FB47 /* Loki.h in Headers */ = {isa = PBXBuildFile; fileRef = 285C3890B08B092CC09DE181C00C4233 /* Loki.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ACBCBECB4527F039E5E0FDCC952CD1C /* UITextView+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1B655F63404F9609029DE51525DDBC /* UITextView+Localization.m */; };
+		9BC84EBCD270C323841F14C04889F9C2 /* Pods-DemoCoreLocation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F04308BCBF5BCB19EA8D769E700759E6 /* Pods-DemoCoreLocation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ECAA6B8D5EBA29D2A7CBC23A7914907 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD1A36A984162B25B1D06DFEBAD703 /* NSBundle+Language.m */; };
+		A2726A4C462739D3C1DD805529C87CAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A537FD2B72FBB19B6D1CD5D54A5B81D0 /* Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B03E021637A00BFA33FEEFEF55B2198D /* Swizzle.m */; };
+		A900CB3B35841A575512981721E6C54C /* UIBarButtonItem+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C956B7738ABF618A6F1B58BFBFA1D47 /* UIBarButtonItem+Localization.m */; };
+		AC221104A3A02CCFB5161437ED6EF177 /* UIViewController+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = B38926BFD272F79F253C80A822E7750D /* UIViewController+Localization.m */; };
+		AE492AD5B7953F7E426C2F86217B6E4D /* UIView+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7663E37758A44FB9B59EDEAB69BF68EF /* UIView+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B70E8CABE564CF78016D631A449E75EB /* Pods-DemoCoreLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E80D7406A2AA4AA679078AA901DF4 /* Pods-DemoCoreLocation-dummy.m */; };
+		C5A5D59ECBDD034DCA9E9D069CDDA411 /* UIButton+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = A62089CCADD568551DA1F28293C35608 /* UIButton+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61E01772DB973AA2D0B3ED00ADFF26C /* UIView+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CD61A70D1343BFBF8345EC1D82EE69 /* UIView+Localization.m */; };
+		CAA4BB7F1BFDB25E20D69AA3263FCD84 /* LKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B9A7E191E5388C85EE76F5F645E25 /* LKManager.m */; };
+		D40606E98F465159726C5A4FB93E83CE /* Swizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB78C72B94004DC05D100B20AE28733 /* Swizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F78B2E10C0148E48E3690E52E1694629 /* UITextField+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 249D7D3BF41A85E29A3404E6E57E26E6 /* UITextField+Localization.m */; };
+		FB6FAB82BB792A8EED56202239F8A12C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FCA82126935D734E5F22B98425ACED31 /* UILabel+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8C71F384A642DB5DA3BFC76FA18574 /* UILabel+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		25174784DAB0A30FBA13EAD230262545 /* PBXContainerItemProxy */ = {
+		570474360F3ADF0310EDC9FA2158C162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D53BA1D6A732546051FCCA8D3DE69F;
+			remoteInfo = Loki;
+		};
+		7BF11A64D8468DCFF77AF4D38710F2F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE3820EFF18270BCDEAB47E24479D8BF;
+			remoteInfo = "Loki-Loki";
+		};
+		D4B85029C21815DE8C1156FE99F55066 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,86 +78,188 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CA6361389C047F35809C54E3C6C97DC /* Pods-DemoCoreLocation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoCoreLocation.modulemap"; sourceTree = "<group>"; };
-		265C46952C58F912D1265796B4AB7DB0 /* Pods-DemoCoreLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoCoreLocation.release.xcconfig"; sourceTree = "<group>"; };
-		2C0C1C723EF940DF6BFC42BE0B5E7E09 /* Pods_DemoCoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoCoreLocation.framework; path = "Pods-DemoCoreLocation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BAEFEBCC67C3EA108F9CB7BAABBC0F0 /* Pods-DemoCoreLocation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoCoreLocation-resources.sh"; sourceTree = "<group>"; };
-		521C05AB6AE7B9910A233B63B560FF70 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		551F63664537853F32071E13FE4CC4FF /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		5BEF52437C1E4AB431C3FBA86771C36E /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		6BF975F7D671150D16470E842AC32D76 /* Pods-DemoCoreLocation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoCoreLocation-umbrella.h"; sourceTree = "<group>"; };
-		7803BA7BD246B51F1D3535DBAFC9D99D /* Pods-DemoCoreLocation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoCoreLocation-acknowledgements.plist"; sourceTree = "<group>"; };
-		854E71B94C79E6A1AE83BA135D87BC75 /* Pods-DemoCoreLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoCoreLocation-dummy.m"; sourceTree = "<group>"; };
-		8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		030EE58DD51C290E1584B602CFF7783C /* Pods-DemoCoreLocation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoCoreLocation-acknowledgements.plist"; sourceTree = "<group>"; };
+		07CD61A70D1343BFBF8345EC1D82EE69 /* UIView+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Localization.m"; path = "Pod/Classes/Views/UIView+Localization.m"; sourceTree = "<group>"; };
+		0B8C71F384A642DB5DA3BFC76FA18574 /* UILabel+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Localization.h"; path = "Pod/Classes/Views/Text/UILabel+Localization.h"; sourceTree = "<group>"; };
+		0B9DD4C1EB322EFAACE1EEB80F42990A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		1628662F3957E6F23A05A3DF5CBB6AFF /* Loki.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Loki.bundle; path = "Loki-Loki.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		249D7D3BF41A85E29A3404E6E57E26E6 /* UITextField+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Localization.m"; path = "Pod/Classes/Views/Text/UITextField+Localization.m"; sourceTree = "<group>"; };
+		285C3890B08B092CC09DE181C00C4233 /* Loki.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Loki.h; path = Pod/Classes/Loki.h; sourceTree = "<group>"; };
+		2C319511F2DF36F5FF0C08FDE693AEDB /* Loki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Loki.framework; path = Loki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD3EC2568AAF9FAC9C12C717C5DC831 /* Pods-DemoCoreLocation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoCoreLocation.modulemap"; sourceTree = "<group>"; };
+		3180FD6BAF71EBDD30E6A9FC35AFA788 /* Pods-DemoCoreLocation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoCoreLocation-Info.plist"; sourceTree = "<group>"; };
+		45C0C49DF1F9D6F7EEC6B0AB88898EAC /* Pods-DemoCoreLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoCoreLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		4D949DD0E824F0FE42361C93D1777DD9 /* Loki-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Loki-Info.plist"; sourceTree = "<group>"; };
+		6656FAC8231CCAAED7DCD281EC558A44 /* UISegmentedControl+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+Localization.m"; path = "Pod/Classes/Views/Controls/UISegmentedControl+Localization.m"; sourceTree = "<group>"; };
+		6CC6642997F7038019DA77FF7F7BCBC8 /* NSBundle+Language.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+Language.h"; path = "Pod/Classes/Utils/NSBundle+Language.h"; sourceTree = "<group>"; };
+		6DB35265BAABA60A9D83088BB34311BE /* UILabel+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Localization.m"; path = "Pod/Classes/Views/Text/UILabel+Localization.m"; sourceTree = "<group>"; };
+		6E3C121E09221273B74942759B5277B6 /* UISegmentedControl+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+Localization.h"; path = "Pod/Classes/Views/Controls/UISegmentedControl+Localization.h"; sourceTree = "<group>"; };
+		7663E37758A44FB9B59EDEAB69BF68EF /* UIView+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Localization.h"; path = "Pod/Classes/Views/UIView+Localization.h"; sourceTree = "<group>"; };
+		78DBFD83D4ED3BAA085BB7BDC9C52D89 /* Pods-DemoCoreLocation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoCoreLocation-frameworks.sh"; sourceTree = "<group>"; };
+		7A5F0323450FDE0FC6F9E6B0077E6C9B /* UITextField+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Localization.h"; path = "Pod/Classes/Views/Text/UITextField+Localization.h"; sourceTree = "<group>"; };
+		7BDD1A36A984162B25B1D06DFEBAD703 /* NSBundle+Language.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+Language.m"; path = "Pod/Classes/Utils/NSBundle+Language.m"; sourceTree = "<group>"; };
+		7F97F9082CB35B1E6C92D2DCEE8CD200 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		898667964A7E3B6E2F183FE742A6D194 /* Loki-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loki-umbrella.h"; sourceTree = "<group>"; };
+		8B4C64319116F36320EF49FBBFA43B18 /* ResourceBundle-Loki-Loki-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Loki-Loki-Info.plist"; sourceTree = "<group>"; };
+		8CB78C72B94004DC05D100B20AE28733 /* Swizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Swizzle.h; path = Pod/Classes/Utils/Swizzle.h; sourceTree = "<group>"; };
+		910FF132BEFAB26AD5B4D4AE1F393F3A /* Pods-DemoCoreLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoCoreLocation.release.xcconfig"; sourceTree = "<group>"; };
+		9369BE8ECB22ECBEB432E2504020025F /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		93BFA3B8D4477F2BE370379E6C4FAB87 /* Pods-DemoCoreLocation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoCoreLocation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95711F0F52F0FB92B485B5ADE286B5C7 /* Pods_DemoCoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoCoreLocation.framework; path = "Pods-DemoCoreLocation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9592B9C4EED37F512A12631AEC2EDC27 /* Loki-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loki-prefix.pch"; sourceTree = "<group>"; };
+		9600ED1A9BE0F503EB65CAA489597BCC /* UITextView+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Localization.h"; path = "Pod/Classes/Views/Text/UITextView+Localization.h"; sourceTree = "<group>"; };
+		9C3E80D7406A2AA4AA679078AA901DF4 /* Pods-DemoCoreLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoCoreLocation-dummy.m"; sourceTree = "<group>"; };
+		9C956B7738ABF618A6F1B58BFBFA1D47 /* UIBarButtonItem+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Localization.m"; path = "Pod/Classes/Views/Controls/UIBarButtonItem+Localization.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C260F448C5785C2A197AA090E19C90B8 /* Pods-DemoCoreLocation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoCoreLocation-Info.plist"; sourceTree = "<group>"; };
+		A0F4BD27BC0FFC14178A70AEB6D540DF /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		A62089CCADD568551DA1F28293C35608 /* UIButton+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Localization.h"; path = "Pod/Classes/Views/Controls/UIButton+Localization.h"; sourceTree = "<group>"; };
+		AC931690C18AC6C1480D3508D100533D /* UIBarButtonItem+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Localization.h"; path = "Pod/Classes/Views/Controls/UIBarButtonItem+Localization.h"; sourceTree = "<group>"; };
+		B03E021637A00BFA33FEEFEF55B2198D /* Swizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Swizzle.m; path = Pod/Classes/Utils/Swizzle.m; sourceTree = "<group>"; };
+		B079FA297D131AEAA87C82C358043235 /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
+		B0A55C54A36A8D8171AA7E413E6770F9 /* LKLanguage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLanguage.h; path = Pod/Classes/Models/LKLanguage.h; sourceTree = "<group>"; };
+		B38926BFD272F79F253C80A822E7750D /* UIViewController+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Localization.m"; path = "Pod/Classes/Controllers/UIViewController+Localization.m"; sourceTree = "<group>"; };
+		BF1B655F63404F9609029DE51525DDBC /* UITextView+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Localization.m"; path = "Pod/Classes/Views/Text/UITextView+Localization.m"; sourceTree = "<group>"; };
+		BF5B9A7E191E5388C85EE76F5F645E25 /* LKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKManager.m; path = Pod/Classes/Models/LKManager.m; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
-		E9AD03199FFAD333AD924B273691B422 /* Pods-DemoCoreLocation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoCoreLocation-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ECED89CF3750012DC5CAC12DCA9F87AB /* Pods-DemoCoreLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoCoreLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		D59AFD2950550D7103FCF3957EDA0545 /* UIButton+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Localization.m"; path = "Pod/Classes/Views/Controls/UIButton+Localization.m"; sourceTree = "<group>"; };
+		D8F93074A0197C4AFC476425B49CC056 /* UIViewController+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Localization.h"; path = "Pod/Classes/Controllers/UIViewController+Localization.h"; sourceTree = "<group>"; };
+		D93AAFA927BB5B9B077CD3EFD4D318C0 /* LKLanguage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLanguage.m; path = Pod/Classes/Models/LKLanguage.m; sourceTree = "<group>"; };
+		E072DFB6100407B2C92A2343B797483B /* Loki.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Loki.modulemap; sourceTree = "<group>"; };
+		EBC9E0280C2E4CB3BE9F7BE465B1BFB8 /* Loki-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Loki-dummy.m"; sourceTree = "<group>"; };
+		F04308BCBF5BCB19EA8D769E700759E6 /* Pods-DemoCoreLocation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoCoreLocation-umbrella.h"; sourceTree = "<group>"; };
+		F0DBB316688A244E2136BB39549F8F61 /* LKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKManager.h; path = Pod/Classes/Models/LKManager.h; sourceTree = "<group>"; };
+		F85AFC4CBDF3FEF2E8518AAD2617315A /* Pods-DemoCoreLocation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoCoreLocation-resources.sh"; sourceTree = "<group>"; };
+		FBB34C1ED118E73D15E5B339AFA10A55 /* Loki.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loki.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5BFA7CFBF8E9EF4F8F7EACB53A13CCD2 /* Frameworks */ = {
+		64ABDCFED965CBCCF350A7315A1268D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4C70D5112328111D7E4A89D77D7EC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8988ABEBA47CA8072DB51DE294E8050C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6FAB82BB792A8EED56202239F8A12C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA900E099115A12C50BF7F6EAFDA9FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2726A4C462739D3C1DD805529C87CAF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C4EB33A076BB7654667F327222F2A96 /* Support Files */ = {
+		1444B55B19D84DFD2AF211A65ED5A45F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */,
+				9369BE8ECB22ECBEB432E2504020025F /* GoogleMaps.framework */,
+				0B9DD4C1EB322EFAACE1EEB80F42990A /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FFF8F8624C7ED5501698326819DB30D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F97F9082CB35B1E6C92D2DCEE8CD200 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E827CBB2600BD1548CE89AA5ED52A38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5EEDF3E4F7621D31449B6D131F37F5B /* GoogleMaps */,
+				FC7F4B1D44FEA0A4A61DE4203DD41904 /* Loki */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EBF8BC59FFB90467817DC405971B7A9 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				1444B55B19D84DFD2AF211A65ED5A45F /* Frameworks */,
+				78E1729DAF70AFE1CE794390F58B312B /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		5F6567FF471E1E0BED396CF3B4047294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1628662F3957E6F23A05A3DF5CBB6AFF /* Loki.bundle */,
+				2C319511F2DF36F5FF0C08FDE693AEDB /* Loki.framework */,
+				95711F0F52F0FB92B485B5ADE286B5C7 /* Pods_DemoCoreLocation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68DD4D0FFDA3B6E07CB60E16C88D518F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E072DFB6100407B2C92A2343B797483B /* Loki.modulemap */,
+				FBB34C1ED118E73D15E5B339AFA10A55 /* Loki.xcconfig */,
+				EBC9E0280C2E4CB3BE9F7BE465B1BFB8 /* Loki-dummy.m */,
+				4D949DD0E824F0FE42361C93D1777DD9 /* Loki-Info.plist */,
+				9592B9C4EED37F512A12631AEC2EDC27 /* Loki-prefix.pch */,
+				898667964A7E3B6E2F183FE742A6D194 /* Loki-umbrella.h */,
+				8B4C64319116F36320EF49FBBFA43B18 /* ResourceBundle-Loki-Loki-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Loki";
+			sourceTree = "<group>";
+		};
+		74C10B99C32504283E7F8140BE8F2777 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B079FA297D131AEAA87C82C358043235 /* GoogleMaps.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/GoogleMaps";
 			sourceTree = "<group>";
 		};
-		54D4C27662AD1E71B3BF999F64653229 /* Products */ = {
+		7698D42D9C48CE207252D662EB54760B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2C0C1C723EF940DF6BFC42BE0B5E7E09 /* Pods_DemoCoreLocation.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5C340C5942048E303B4806C092969A9E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AD2F2CA4E90E195816E1A5818D2C8DF0 /* Pods-DemoCoreLocation */,
+				8A62D8FE68468B83F577289F26B38FDC /* Pods-DemoCoreLocation */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		635C391EBEDEECEBED7C587C09F80C29 /* Maps */ = {
+		78E1729DAF70AFE1CE794390F58B312B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7A2FE3E30CF6F7F1C609C86668A4411D /* Frameworks */,
-				CB4FFE30125DB944A69FABB13465CBF9 /* Resources */,
+				A0F4BD27BC0FFC14178A70AEB6D540DF /* GoogleMaps.bundle */,
 			);
-			name = Maps;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		6DC984D737DB841E41A9D175E8069AED /* Base */ = {
+		8A62D8FE68468B83F577289F26B38FDC /* Pods-DemoCoreLocation */ = {
 			isa = PBXGroup;
 			children = (
-				E31401A986F325F1E4863EC2F7E087C0 /* Frameworks */,
+				2DD3EC2568AAF9FAC9C12C717C5DC831 /* Pods-DemoCoreLocation.modulemap */,
+				93BFA3B8D4477F2BE370379E6C4FAB87 /* Pods-DemoCoreLocation-acknowledgements.markdown */,
+				030EE58DD51C290E1584B602CFF7783C /* Pods-DemoCoreLocation-acknowledgements.plist */,
+				9C3E80D7406A2AA4AA679078AA901DF4 /* Pods-DemoCoreLocation-dummy.m */,
+				78DBFD83D4ED3BAA085BB7BDC9C52D89 /* Pods-DemoCoreLocation-frameworks.sh */,
+				3180FD6BAF71EBDD30E6A9FC35AFA788 /* Pods-DemoCoreLocation-Info.plist */,
+				F85AFC4CBDF3FEF2E8518AAD2617315A /* Pods-DemoCoreLocation-resources.sh */,
+				F04308BCBF5BCB19EA8D769E700759E6 /* Pods-DemoCoreLocation-umbrella.h */,
+				45C0C49DF1F9D6F7EEC6B0AB88898EAC /* Pods-DemoCoreLocation.debug.xcconfig */,
+				910FF132BEFAB26AD5B4D4AE1F393F3A /* Pods-DemoCoreLocation.release.xcconfig */,
 			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		7A2FE3E30CF6F7F1C609C86668A4411D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5BEF52437C1E4AB431C3FBA86771C36E /* GoogleMaps.framework */,
-				8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */,
-			);
-			name = Frameworks;
+			name = "Pods-DemoCoreLocation";
+			path = "Target Support Files/Pods-DemoCoreLocation";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -125,50 +270,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		AD2F2CA4E90E195816E1A5818D2C8DF0 /* Pods-DemoCoreLocation */ = {
-			isa = PBXGroup;
-			children = (
-				1CA6361389C047F35809C54E3C6C97DC /* Pods-DemoCoreLocation.modulemap */,
-				E9AD03199FFAD333AD924B273691B422 /* Pods-DemoCoreLocation-acknowledgements.markdown */,
-				7803BA7BD246B51F1D3535DBAFC9D99D /* Pods-DemoCoreLocation-acknowledgements.plist */,
-				854E71B94C79E6A1AE83BA135D87BC75 /* Pods-DemoCoreLocation-dummy.m */,
-				C260F448C5785C2A197AA090E19C90B8 /* Pods-DemoCoreLocation-Info.plist */,
-				4BAEFEBCC67C3EA108F9CB7BAABBC0F0 /* Pods-DemoCoreLocation-resources.sh */,
-				6BF975F7D671150D16470E842AC32D76 /* Pods-DemoCoreLocation-umbrella.h */,
-				ECED89CF3750012DC5CAC12DCA9F87AB /* Pods-DemoCoreLocation.debug.xcconfig */,
-				265C46952C58F912D1265796B4AB7DB0 /* Pods-DemoCoreLocation.release.xcconfig */,
-			);
-			name = "Pods-DemoCoreLocation";
-			path = "Target Support Files/Pods-DemoCoreLocation";
-			sourceTree = "<group>";
-		};
-		AEB2EB54AE51001ACA52CF2A5CD80017 /* GoogleMaps */ = {
-			isa = PBXGroup;
-			children = (
-				6DC984D737DB841E41A9D175E8069AED /* Base */,
-				635C391EBEDEECEBED7C587C09F80C29 /* Maps */,
-				2C4EB33A076BB7654667F327222F2A96 /* Support Files */,
-			);
-			name = GoogleMaps;
-			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		CB4FFE30125DB944A69FABB13465CBF9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				521C05AB6AE7B9910A233B63B560FF70 /* GoogleMaps.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DF3634087891871FA7B65CC4A8E6DB71 /* Pods */,
-				54D4C27662AD1E71B3BF999F64653229 /* Products */,
-				5C340C5942048E303B4806C092969A9E /* Targets Support Files */,
+				3E827CBB2600BD1548CE89AA5ED52A38 /* Pods */,
+				5F6567FF471E1E0BED396CF3B4047294 /* Products */,
+				7698D42D9C48CE207252D662EB54760B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,53 +289,148 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF3634087891871FA7B65CC4A8E6DB71 /* Pods */ = {
+		D3E4659422979EC33FA21A35667CB0CF /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				AEB2EB54AE51001ACA52CF2A5CD80017 /* GoogleMaps */,
+				1FFF8F8624C7ED5501698326819DB30D /* Frameworks */,
 			);
-			name = Pods;
+			name = Base;
 			sourceTree = "<group>";
 		};
-		E31401A986F325F1E4863EC2F7E087C0 /* Frameworks */ = {
+		F5EEDF3E4F7621D31449B6D131F37F5B /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				551F63664537853F32071E13FE4CC4FF /* GoogleMapsBase.framework */,
+				D3E4659422979EC33FA21A35667CB0CF /* Base */,
+				5EBF8BC59FFB90467817DC405971B7A9 /* Maps */,
+				74C10B99C32504283E7F8140BE8F2777 /* Support Files */,
 			);
-			name = Frameworks;
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		FC7F4B1D44FEA0A4A61DE4203DD41904 /* Loki */ = {
+			isa = PBXGroup;
+			children = (
+				B0A55C54A36A8D8171AA7E413E6770F9 /* LKLanguage.h */,
+				D93AAFA927BB5B9B077CD3EFD4D318C0 /* LKLanguage.m */,
+				F0DBB316688A244E2136BB39549F8F61 /* LKManager.h */,
+				BF5B9A7E191E5388C85EE76F5F645E25 /* LKManager.m */,
+				285C3890B08B092CC09DE181C00C4233 /* Loki.h */,
+				6CC6642997F7038019DA77FF7F7BCBC8 /* NSBundle+Language.h */,
+				7BDD1A36A984162B25B1D06DFEBAD703 /* NSBundle+Language.m */,
+				8CB78C72B94004DC05D100B20AE28733 /* Swizzle.h */,
+				B03E021637A00BFA33FEEFEF55B2198D /* Swizzle.m */,
+				AC931690C18AC6C1480D3508D100533D /* UIBarButtonItem+Localization.h */,
+				9C956B7738ABF618A6F1B58BFBFA1D47 /* UIBarButtonItem+Localization.m */,
+				A62089CCADD568551DA1F28293C35608 /* UIButton+Localization.h */,
+				D59AFD2950550D7103FCF3957EDA0545 /* UIButton+Localization.m */,
+				0B8C71F384A642DB5DA3BFC76FA18574 /* UILabel+Localization.h */,
+				6DB35265BAABA60A9D83088BB34311BE /* UILabel+Localization.m */,
+				6E3C121E09221273B74942759B5277B6 /* UISegmentedControl+Localization.h */,
+				6656FAC8231CCAAED7DCD281EC558A44 /* UISegmentedControl+Localization.m */,
+				7A5F0323450FDE0FC6F9E6B0077E6C9B /* UITextField+Localization.h */,
+				249D7D3BF41A85E29A3404E6E57E26E6 /* UITextField+Localization.m */,
+				9600ED1A9BE0F503EB65CAA489597BCC /* UITextView+Localization.h */,
+				BF1B655F63404F9609029DE51525DDBC /* UITextView+Localization.m */,
+				7663E37758A44FB9B59EDEAB69BF68EF /* UIView+Localization.h */,
+				07CD61A70D1343BFBF8345EC1D82EE69 /* UIView+Localization.m */,
+				D8F93074A0197C4AFC476425B49CC056 /* UIViewController+Localization.h */,
+				B38926BFD272F79F253C80A822E7750D /* UIViewController+Localization.m */,
+				68DD4D0FFDA3B6E07CB60E16C88D518F /* Support Files */,
+			);
+			name = Loki;
+			path = Loki;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		32381DAF5D58480CF7A86F6D1E4A8EE4 /* Headers */ = {
+		45AC4D636528E42DA183BA6905FD0940 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				587853D9C246F44D3D598148B427AE68 /* Pods-DemoCoreLocation-umbrella.h in Headers */,
+				9BC84EBCD270C323841F14C04889F9C2 /* Pods-DemoCoreLocation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04EA9966C4DC5B2997ECBABE37748E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371270A887D9CE0816CBAF98D7CEC63F /* LKLanguage.h in Headers */,
+				5D94788805F1285793176B958B3BCACF /* LKManager.h in Headers */,
+				5AEAE9821B1E0B34BECADCA0F32B6666 /* Loki-umbrella.h in Headers */,
+				8C46E9AC901C75C44DEC591DB737FB47 /* Loki.h in Headers */,
+				452250414F1C019E2C95BEB06250C237 /* NSBundle+Language.h in Headers */,
+				D40606E98F465159726C5A4FB93E83CE /* Swizzle.h in Headers */,
+				20C34F186224685DF485B12F39BAB44E /* UIBarButtonItem+Localization.h in Headers */,
+				C5A5D59ECBDD034DCA9E9D069CDDA411 /* UIButton+Localization.h in Headers */,
+				FCA82126935D734E5F22B98425ACED31 /* UILabel+Localization.h in Headers */,
+				58E3C163BE9941CCA5F92C2D57E4DEC3 /* UISegmentedControl+Localization.h in Headers */,
+				1E6CB635D3488DA76C4B6399AF207D3E /* UITextField+Localization.h in Headers */,
+				166D499EB09478AC37368312E5E5B204 /* UITextView+Localization.h in Headers */,
+				AE492AD5B7953F7E426C2F86217B6E4D /* UIView+Localization.h in Headers */,
+				0A6D03052488CDCFA658634F8EA3C892 /* UIViewController+Localization.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		14FA3793E1C4A3FA0D135D865A0766BB /* Pods-DemoCoreLocation */ = {
+		AE3820EFF18270BCDEAB47E24479D8BF /* Loki-Loki */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF928DB39263684721D723008BF0FDF8 /* Build configuration list for PBXNativeTarget "Pods-DemoCoreLocation" */;
+			buildConfigurationList = 26BDFF731DF4F4FBD15C4902E4A56BCF /* Build configuration list for PBXNativeTarget "Loki-Loki" */;
 			buildPhases = (
-				32381DAF5D58480CF7A86F6D1E4A8EE4 /* Headers */,
-				4D7E11CE5C2DA1724D1FE952119747B0 /* Sources */,
-				5BFA7CFBF8E9EF4F8F7EACB53A13CCD2 /* Frameworks */,
-				A818A9F5FFDBBF255A86714A888BFD49 /* Resources */,
+				FEB4280C8F9E3E80299AD79E577683AD /* Sources */,
+				64ABDCFED965CBCCF350A7315A1268D9 /* Frameworks */,
+				01F84048C4442C3682596C7D00CA0972 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DBED3093C4AE8DCA3FEA8B8B41A93097 /* PBXTargetDependency */,
+			);
+			name = "Loki-Loki";
+			productName = "Loki-Loki";
+			productReference = 1628662F3957E6F23A05A3DF5CBB6AFF /* Loki.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D9D53BA1D6A732546051FCCA8D3DE69F /* Loki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 623280629B3A542296A1AC93C73F90DB /* Build configuration list for PBXNativeTarget "Loki" */;
+			buildPhases = (
+				D04EA9966C4DC5B2997ECBABE37748E8 /* Headers */,
+				2AFDC31D69F307AB9A36CD793E21D7F1 /* Sources */,
+				8988ABEBA47CA8072DB51DE294E8050C /* Frameworks */,
+				FB705A91F4BA502D168379CF98FDE748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC7FBE79FC012A729ED0C189A4B759A4 /* PBXTargetDependency */,
+			);
+			name = Loki;
+			productName = Loki;
+			productReference = 2C319511F2DF36F5FF0C08FDE693AEDB /* Loki.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5F7C98FE1BE289E54455AEBDE5B9CB3 /* Pods-DemoCoreLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58A3AB0EED7CC9968A2B0FA489E5A3E3 /* Build configuration list for PBXNativeTarget "Pods-DemoCoreLocation" */;
+			buildPhases = (
+				45AC4D636528E42DA183BA6905FD0940 /* Headers */,
+				AA8B5DB40E190BE8F65D950EBC7A8A75 /* Sources */,
+				FA900E099115A12C50BF7F6EAFDA9FAE /* Frameworks */,
+				F75EFBF5ABB203F8A3A9E9C23516EB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E4F383D36A48077935A14172BDE6C4A /* PBXTargetDependency */,
+				D907D7DDD0BC5B34C2408BC5B53938BB /* PBXTargetDependency */,
 			);
 			name = "Pods-DemoCoreLocation";
 			productName = "Pods-DemoCoreLocation";
-			productReference = 2C0C1C723EF940DF6BFC42BE0B5E7E09 /* Pods_DemoCoreLocation.framework */;
+			productReference = 95711F0F52F0FB92B485B5ADE286B5C7 /* Pods_DemoCoreLocation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -246,104 +450,106 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 54D4C27662AD1E71B3BF999F64653229 /* Products */;
+			productRefGroup = 5F6567FF471E1E0BED396CF3B4047294 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */,
-				14FA3793E1C4A3FA0D135D865A0766BB /* Pods-DemoCoreLocation */,
+				D9D53BA1D6A732546051FCCA8D3DE69F /* Loki */,
+				AE3820EFF18270BCDEAB47E24479D8BF /* Loki-Loki */,
+				F5F7C98FE1BE289E54455AEBDE5B9CB3 /* Pods-DemoCoreLocation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A818A9F5FFDBBF255A86714A888BFD49 /* Resources */ = {
+		01F84048C4442C3682596C7D00CA0972 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F75EFBF5ABB203F8A3A9E9C23516EB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB705A91F4BA502D168379CF98FDE748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8202AF0891C60E392E53F37D605377A6 /* Loki.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D7E11CE5C2DA1724D1FE952119747B0 /* Sources */ = {
+		2AFDC31D69F307AB9A36CD793E21D7F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F5A9EFC02A9989E905834A04E15580E /* Pods-DemoCoreLocation-dummy.m in Sources */,
+				6E12F72FFE5D4776BB1D2C70B2396F02 /* LKLanguage.m in Sources */,
+				CAA4BB7F1BFDB25E20D69AA3263FCD84 /* LKManager.m in Sources */,
+				80339E248F4FDB9BBA1966340C07498C /* Loki-dummy.m in Sources */,
+				9ECAA6B8D5EBA29D2A7CBC23A7914907 /* NSBundle+Language.m in Sources */,
+				A537FD2B72FBB19B6D1CD5D54A5B81D0 /* Swizzle.m in Sources */,
+				A900CB3B35841A575512981721E6C54C /* UIBarButtonItem+Localization.m in Sources */,
+				1F2AC6F164C5C6D505F52698BE0A3EFD /* UIButton+Localization.m in Sources */,
+				60CADDD8F5F6F180BA4C24D8384CC0EA /* UILabel+Localization.m in Sources */,
+				65DE6D2D560D8A6E57F4C973134B9404 /* UISegmentedControl+Localization.m in Sources */,
+				F78B2E10C0148E48E3690E52E1694629 /* UITextField+Localization.m in Sources */,
+				9ACBCBECB4527F039E5E0FDCC952CD1C /* UITextView+Localization.m in Sources */,
+				C61E01772DB973AA2D0B3ED00ADFF26C /* UIView+Localization.m in Sources */,
+				AC221104A3A02CCFB5161437ED6EF177 /* UIViewController+Localization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8B5DB40E190BE8F65D950EBC7A8A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70E8CABE564CF78016D631A449E75EB /* Pods-DemoCoreLocation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB4280C8F9E3E80299AD79E577683AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DBED3093C4AE8DCA3FEA8B8B41A93097 /* PBXTargetDependency */ = {
+		3E4F383D36A48077935A14172BDE6C4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleMaps;
 			target = BCE3DE68053C99B18AAD56BE1F98BD73 /* GoogleMaps */;
-			targetProxy = 25174784DAB0A30FBA13EAD230262545 /* PBXContainerItemProxy */;
+			targetProxy = D4B85029C21815DE8C1156FE99F55066 /* PBXContainerItemProxy */;
+		};
+		D907D7DDD0BC5B34C2408BC5B53938BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Loki;
+			target = D9D53BA1D6A732546051FCCA8D3DE69F /* Loki */;
+			targetProxy = 570474360F3ADF0310EDC9FA2158C162 /* PBXContainerItemProxy */;
+		};
+		DC7FBE79FC012A729ED0C189A4B759A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Loki-Loki";
+			target = AE3820EFF18270BCDEAB47E24479D8BF /* Loki-Loki */;
+			targetProxy = 7BF11A64D8468DCFF77AF4D38710F2F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2E184E74757F98124F81779089C13077 /* Debug */ = {
+		0B890C76A29D22474ABDD67283B8D258 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECED89CF3750012DC5CAC12DCA9F87AB /* Pods-DemoCoreLocation.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DemoCoreLocation/Pods-DemoCoreLocation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DemoCoreLocation/Pods-DemoCoreLocation.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4AA46832D8A16AA4E4811383B204D2A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		6519F8FD132E02622A84E50743BDF01F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 265C46952C58F912D1265796B4AB7DB0 /* Pods-DemoCoreLocation.release.xcconfig */;
+			baseConfigurationReference = 910FF132BEFAB26AD5B4D4AE1F393F3A /* Pods-DemoCoreLocation.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -379,6 +585,127 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		25D7FBBD975460B06F25CA64D1DFF277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB34C1ED118E73D15E5B339AFA10A55 /* Loki.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Loki";
+				INFOPLIST_FILE = "Target Support Files/Loki/ResourceBundle-Loki-Loki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Loki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		297D2F677C980B3885E717E3C318ABBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C0C49DF1F9D6F7EEC6B0AB88898EAC /* Pods-DemoCoreLocation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoCoreLocation/Pods-DemoCoreLocation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoCoreLocation/Pods-DemoCoreLocation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33FC68945356B834E856B64E7D6F3422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB34C1ED118E73D15E5B339AFA10A55 /* Loki.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Loki";
+				INFOPLIST_FILE = "Target Support Files/Loki/ResourceBundle-Loki-Loki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Loki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4AA46832D8A16AA4E4811383B204D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B079FA297D131AEAA87C82C358043235 /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7333E95E02EB66A033CE98FE20684EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB34C1ED118E73D15E5B339AFA10A55 /* Loki.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Loki/Loki-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Loki/Loki-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Loki/Loki.modulemap";
+				PRODUCT_MODULE_NAME = Loki;
+				PRODUCT_NAME = Loki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -506,7 +833,7 @@
 		};
 		C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */;
+			baseConfigurationReference = B079FA297D131AEAA87C82C358043235 /* GoogleMaps.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -521,9 +848,54 @@
 			};
 			name = Release;
 		};
+		E483FA0CD69BF2F0C25DF31A4A8E264B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB34C1ED118E73D15E5B339AFA10A55 /* Loki.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Loki/Loki-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Loki/Loki-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Loki/Loki.modulemap";
+				PRODUCT_MODULE_NAME = Loki;
+				PRODUCT_NAME = Loki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		26BDFF731DF4F4FBD15C4902E4A56BCF /* Build configuration list for PBXNativeTarget "Loki-Loki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D7FBBD975460B06F25CA64D1DFF277 /* Debug */,
+				33FC68945356B834E856B64E7D6F3422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -542,11 +914,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF928DB39263684721D723008BF0FDF8 /* Build configuration list for PBXNativeTarget "Pods-DemoCoreLocation" */ = {
+		58A3AB0EED7CC9968A2B0FA489E5A3E3 /* Build configuration list for PBXNativeTarget "Pods-DemoCoreLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E184E74757F98124F81779089C13077 /* Debug */,
-				6519F8FD132E02622A84E50743BDF01F /* Release */,
+				297D2F677C980B3885E717E3C318ABBC /* Debug */,
+				0B890C76A29D22474ABDD67283B8D258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		623280629B3A542296A1AC93C73F90DB /* Build configuration list for PBXNativeTarget "Loki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7333E95E02EB66A033CE98FE20684EA4 /* Debug */,
+				E483FA0CD69BF2F0C25DF31A4A8E264B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

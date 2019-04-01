@@ -4,17 +4,29 @@ PODS:
   - GoogleMaps/Base (3.0.3)
   - GoogleMaps/Maps (3.0.3):
     - GoogleMaps/Base
+  - Loki (0.1.0)
 
 DEPENDENCIES:
   - GoogleMaps
+  - Loki (from `https://github.com/myselflokeshyadav/Loki.git`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - GoogleMaps
 
+EXTERNAL SOURCES:
+  Loki:
+    :git: https://github.com/myselflokeshyadav/Loki.git
+
+CHECKOUT OPTIONS:
+  Loki:
+    :commit: 2d64a0c7d53b68d5170f74cc14a60b1303178854
+    :git: https://github.com/myselflokeshyadav/Loki.git
+
 SPEC CHECKSUMS:
   GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
+  Loki: f2d862e02c932101b9d13df12b76944860cda1c3
 
-PODFILE CHECKSUM: 540d890cb56ae51460464348152b2af07fb4176e
+PODFILE CHECKSUM: 2fe425d5dd21b683571883ee12d62e06e7970223
 
 COCOAPODS: 1.6.1

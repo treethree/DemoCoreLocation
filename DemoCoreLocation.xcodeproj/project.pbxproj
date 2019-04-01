@@ -16,6 +16,15 @@
 		2F4F997F224AD7A300A50CD5 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F997E224AD7A300A50CD5 /* WeatherViewController.swift */; };
 		2F4F9981224AFA5300A50CD5 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F9980224AFA5300A50CD5 /* ApiHandler.swift */; };
 		2F4F9983224AFA6700A50CD5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F9982224AFA6700A50CD5 /* Weather.swift */; };
+		2F607270224EBE82000E0A76 /* DownloadTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F60726F224EBE81000E0A76 /* DownloadTaskViewController.swift */; };
+		2F64200A224D3CE6000F7BF4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F64200C224D3CE6000F7BF4 /* Localizable.strings */; };
+		2F642010224D40E1000F7BF4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F64200F224D40E1000F7BF4 /* ThirdViewController.swift */; };
+		2F642012224D4B4C000F7BF4 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F642011224D4B4C000F7BF4 /* LanguageViewController.swift */; };
+		2F642042224E7716000F7BF4 /* Breakfast.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2F642041224E7716000F7BF4 /* Breakfast.xml */; };
+		2F642060224E82BC000F7BF4 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F64205F224E82BC000F7BF4 /* XMLReader.m */; };
+		2F642062224E870B000F7BF4 /* ParseXmlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F642061224E870B000F7BF4 /* ParseXmlViewController.swift */; };
+		2F642066224EA6D6000F7BF4 /* ApiHandlerXml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F642065224EA6D6000F7BF4 /* ApiHandlerXml.swift */; };
+		2F642068224EA9AC000F7BF4 /* ParseLocalXmlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F642067224EA9AC000F7BF4 /* ParseLocalXmlViewController.swift */; };
 		A919DA2842A09FCA33CF3997 /* Pods_DemoCoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D20944F488DF0F77486065 /* Pods_DemoCoreLocation.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +41,19 @@
 		2F4F997E224AD7A300A50CD5 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		2F4F9980224AFA5300A50CD5 /* ApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
 		2F4F9982224AFA6700A50CD5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		2F60726F224EBE81000E0A76 /* DownloadTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadTaskViewController.swift; sourceTree = "<group>"; };
+		2F64200B224D3CE6000F7BF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2F64200D224D3D29000F7BF4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2F64200E224D3D5A000F7BF4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2F64200F224D40E1000F7BF4 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		2F642011224D4B4C000F7BF4 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		2F642041224E7716000F7BF4 /* Breakfast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Breakfast.xml; path = ../../../../Downloads/Breakfast.xml; sourceTree = "<group>"; };
+		2F64205D224E8297000F7BF4 /* DemoCoreLocation-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DemoCoreLocation-Bridging-Header.h"; sourceTree = "<group>"; };
+		2F64205E224E82BC000F7BF4 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLReader.h; path = ../../../../Downloads/XMLReader.h; sourceTree = "<group>"; };
+		2F64205F224E82BC000F7BF4 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLReader.m; path = ../../../../Downloads/XMLReader.m; sourceTree = "<group>"; };
+		2F642061224E870B000F7BF4 /* ParseXmlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseXmlViewController.swift; sourceTree = "<group>"; };
+		2F642065224EA6D6000F7BF4 /* ApiHandlerXml.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHandlerXml.swift; sourceTree = "<group>"; };
+		2F642067224EA9AC000F7BF4 /* ParseLocalXmlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseLocalXmlViewController.swift; sourceTree = "<group>"; };
 		32D20944F488DF0F77486065 /* Pods_DemoCoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoCoreLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0204907FE5AEF2AA2A657A3 /* Pods-DemoCoreLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCoreLocation.debug.xcconfig"; path = "Target Support Files/Pods-DemoCoreLocation/Pods-DemoCoreLocation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,14 +101,25 @@
 			children = (
 				2F4F996A224A7FC500A50CD5 /* AppDelegate.swift */,
 				2F4F996C224A7FC500A50CD5 /* ViewController.swift */,
+				2F64200C224D3CE6000F7BF4 /* Localizable.strings */,
 				2F4F997C224AC5BF00A50CD5 /* SecondViewController.swift */,
+				2F64200F224D40E1000F7BF4 /* ThirdViewController.swift */,
+				2F642011224D4B4C000F7BF4 /* LanguageViewController.swift */,
 				2F4F997E224AD7A300A50CD5 /* WeatherViewController.swift */,
 				2F4F9980224AFA5300A50CD5 /* ApiHandler.swift */,
 				2F4F9982224AFA6700A50CD5 /* Weather.swift */,
+				2F642061224E870B000F7BF4 /* ParseXmlViewController.swift */,
+				2F642067224EA9AC000F7BF4 /* ParseLocalXmlViewController.swift */,
+				2F642065224EA6D6000F7BF4 /* ApiHandlerXml.swift */,
 				2F4F996E224A7FC500A50CD5 /* Main.storyboard */,
+				2F642041224E7716000F7BF4 /* Breakfast.xml */,
+				2F64205E224E82BC000F7BF4 /* XMLReader.h */,
+				2F64205F224E82BC000F7BF4 /* XMLReader.m */,
+				2F64205D224E8297000F7BF4 /* DemoCoreLocation-Bridging-Header.h */,
 				2F4F9971224A7FC600A50CD5 /* Assets.xcassets */,
 				2F4F9973224A7FC600A50CD5 /* LaunchScreen.storyboard */,
 				2F4F9976224A7FC600A50CD5 /* Info.plist */,
+				2F60726F224EBE81000E0A76 /* DownloadTaskViewController.swift */,
 			);
 			path = DemoCoreLocation;
 			sourceTree = "<group>";
@@ -112,6 +145,7 @@
 				2F4F9964224A7FC500A50CD5 /* Frameworks */,
 				2F4F9965224A7FC500A50CD5 /* Resources */,
 				4CCA0D7FCC7A75B38C3DEF93 /* [CP] Copy Pods Resources */,
+				EFC75EAD5B85448AA940A0C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +168,7 @@
 				TargetAttributes = {
 					2F4F9966224A7FC500A50CD5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -144,6 +179,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				fr,
 			);
 			mainGroup = 2F4F995E224A7FC500A50CD5;
 			productRefGroup = 2F4F9968224A7FC500A50CD5 /* Products */;
@@ -161,6 +198,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F4F9975224A7FC600A50CD5 /* LaunchScreen.storyboard in Resources */,
+				2F642042224E7716000F7BF4 /* Breakfast.xml in Resources */,
+				2F64200A224D3CE6000F7BF4 /* Localizable.strings in Resources */,
 				2F4F9972224A7FC600A50CD5 /* Assets.xcassets in Resources */,
 				2F4F9970224A7FC500A50CD5 /* Main.storyboard in Resources */,
 			);
@@ -213,6 +252,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EFC75EAD5B85448AA940A0C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoCoreLocation/Pods-DemoCoreLocation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Loki/Loki.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Loki.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoCoreLocation/Pods-DemoCoreLocation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -222,9 +283,16 @@
 			files = (
 				2F4F997D224AC5BF00A50CD5 /* SecondViewController.swift in Sources */,
 				2F4F997F224AD7A300A50CD5 /* WeatherViewController.swift in Sources */,
+				2F642066224EA6D6000F7BF4 /* ApiHandlerXml.swift in Sources */,
+				2F642012224D4B4C000F7BF4 /* LanguageViewController.swift in Sources */,
 				2F4F9981224AFA5300A50CD5 /* ApiHandler.swift in Sources */,
+				2F642010224D40E1000F7BF4 /* ThirdViewController.swift in Sources */,
 				2F4F996D224A7FC500A50CD5 /* ViewController.swift in Sources */,
+				2F607270224EBE82000E0A76 /* DownloadTaskViewController.swift in Sources */,
+				2F642062224E870B000F7BF4 /* ParseXmlViewController.swift in Sources */,
 				2F4F9983224AFA6700A50CD5 /* Weather.swift in Sources */,
+				2F642060224E82BC000F7BF4 /* XMLReader.m in Sources */,
+				2F642068224EA9AC000F7BF4 /* ParseLocalXmlViewController.swift in Sources */,
 				2F4F996B224A7FC500A50CD5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +316,16 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		2F64200C224D3CE6000F7BF4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F64200B224D3CE6000F7BF4 /* en */,
+				2F64200D224D3D29000F7BF4 /* zh-Hans */,
+				2F64200E224D3D5A000F7BF4 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -255,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -316,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -372,6 +452,7 @@
 			baseConfigurationReference = D0204907FE5AEF2AA2A657A3 /* Pods-DemoCoreLocation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DD42ZMY2NH;
 				INFOPLIST_FILE = DemoCoreLocation/Info.plist;
@@ -382,6 +463,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.scui5.DemoCoreLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoCoreLocation/DemoCoreLocation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -392,6 +475,7 @@
 			baseConfigurationReference = 149A859088DE58B8FE514C73 /* Pods-DemoCoreLocation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DD42ZMY2NH;
 				INFOPLIST_FILE = DemoCoreLocation/Info.plist;
@@ -402,6 +486,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.scui5.DemoCoreLocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoCoreLocation/DemoCoreLocation-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

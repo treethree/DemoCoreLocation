@@ -7,9 +7,13 @@
 //
 
 let GoogleApiKey = "AIzaSyDSqpW3bawJblDGY0Y3fIA6XyezFg6bknY"
+let English = "en"
+let French = "fr"
+let Chinese = "zh-Hans"
 
 import UIKit
 import GoogleMaps
+import Loki
 
 
 @UIApplicationMain
@@ -22,7 +26,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         GMSServices.provideAPIKey(GoogleApiKey)
         // Override point for customization after application launch.
+        setuplanguage()
+//        if let item = LKManager.sharedInstance()?.languages[2] as? LKLanguage{
+//            LKManager.sharedInstance()?.currentLanguage = item
+//            //print(LKManager.sharedInstance()?.currentLanguage.name)
+//        }
+        
         return true
+    }
+    
+    func setuplanguage(){
+        LKManager.add(LKLanguage.init(name : "English", code: English))
+        LKManager.add(LKLanguage.init(name : "French", code: French))
+        LKManager.add(LKLanguage.init(name : "Chinese", code: Chinese))
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

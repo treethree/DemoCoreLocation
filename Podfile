@@ -7,5 +7,5 @@ target 'DemoCoreLocation' do
 
   # Pods for DemoCoreLocation
    pod 'GoogleMaps'
-  
+   pod 'Loki', :git => 'https://github.com/myselflokeshyadav/Loki.git'
 end

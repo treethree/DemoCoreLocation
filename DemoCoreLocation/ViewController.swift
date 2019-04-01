@@ -10,6 +10,8 @@ import UIKit
 import CoreLocation
 import MapKit
 
+//let urlXml = "http://static.klipfolio.com/static/klips/saas/example_data/sales.xml"
+
 class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
 
     @IBOutlet weak var appleMap: MKMapView!
@@ -22,7 +24,30 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         //setupCordinate()
         localSearchApi()
         appleMap.delegate = self
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        let path = findXmlPath(res: "Breakfast", ext: ".xml")
+//
+//        let data = try! Data(contentsOf: path!)
+//        let dict : NSDictionary = try! XMLReader.dictionary(forXMLData: data) as! NSDictionary
+//
+//        //print(dict)
+//
+//        URLSession.shared.dataTask(with: URL(string: urlXml)!) { (data, response, error) in
+//            do{
+//                let dataStr = String(data: data!, encoding: String.Encoding.utf8)
+//                let dict = try XMLReader.dictionary(forXMLString: dataStr)
+//                print(dict)
+//            }catch{
+//
+//            }
+//        }.resume()
+    }
+    
+    func findXmlPath(res : String, ext: String)->URL?{
+        if let path = Bundle.main.url(forResource: res, withExtension: ext){
+            return path
+        }
+        return nil
     }
     
     func mapView(_ appleMap: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {

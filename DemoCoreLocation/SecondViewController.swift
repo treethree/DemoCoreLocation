@@ -41,6 +41,7 @@ class SecondViewController: UIViewController ,GMSMapViewDelegate, CLLocationMana
         //locations.last is latest position
         let loc = locations.last
         print(loc!)
+        
         createPath(cord: loc!.coordinate)
         viewGms.camera = GMSCameraPosition.camera(withTarget: loc!.coordinate, zoom: 15)
     }
